@@ -66,3 +66,30 @@ footer {
   font-size: 0.9rem;
 }
 .contact { margin-top: 36px; }
+.yt-row { margin: 0 0 28px; }
+.yt-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ff0000;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 10px 16px;
+  border-radius: 6px;
+  letter-spacing: 0.01em;
+}
+.yt-badge::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 12px;
+  border-color: transparent transparent transparent #ffffff;
+  margin-right: 2px;
+}
+.yt-badge:hover {
+  text-decoration: none;
+  background: #cc0000;
+  color: #ffffff;
+}
